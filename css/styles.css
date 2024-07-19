@@ -1,0 +1,105 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+ol {
+  list-style-type: none;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  font-size: 12px;
+}
+
+.header_logo {
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.main-container {
+  background-image: url(../img/background.jfif);
+  background-repeat: repeat;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: rgb(47, 18, 73);
+  font-size: 200%;
+  font-weight: bold;
+
+  h1 {
+    margin: 0;
+  }
+
+  .title-container {
+    background-color: #ffffffad;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px;
+
+    .title-simbols {
+      color: orangered;
+    }
+
+    .title-com {
+      font-size: 70%;
+    }
+  }
+}
+
+.main-container {
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+}
+
+.principal_section {
+  display: flex;
+  justify-content: center;
+}
+
+.cards_container {
+
+    display: grid;
+    justify-items: center;
+    gap: 5%;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.caracteristicas_main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10%;
+
+  h1 {
+    background-color: #ffffff11;
+    border-radius: 6%;
+  }
+
+  h3 {
+    background-color: #ffffff11;
+    border-radius: 6%;
+  }
+
+  p {
+    background-color: #ffffff11;
+    border-radius: 6%;
+
+  }
+  img {
+    max-width: 30%;
+    max-height: 30%;
+  }
+}
